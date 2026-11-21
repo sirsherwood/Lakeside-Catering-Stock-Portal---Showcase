@@ -27,6 +27,16 @@ I helped turn those operational needs into a browser-based portal that gives sta
 
 The portal has been deployed for real workplace use. The application is also being maintained and revised, but **this showcase deliberately describes the capabilities evidenced in the supplied deployed-code snapshot, not unreleased functionality**.
 
+## Application Screenshots
+
+### Order Request Management
+
+![Order request interface](assets/Lakeside-Catering-Order-Requests-Dashboard.png)
+
+### Inventory Overview
+
+![Inventory overview interface](assets/Inventory-Readiness-Dashboard.png)
+
 ## Engineering highlights
 
 ### Modeling physical stock versus usable stock

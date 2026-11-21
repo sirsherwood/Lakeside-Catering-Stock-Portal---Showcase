@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 490" role="img" aria-labelledby="title desc">
+  <title id="title">Catering Stock Portal — architecture overview</title>
+  <desc id="desc">Staff browsers access Flask web routes and server-side rules. Flask renders Jinja templates and stores inventory, orders and audit history using SQLAlchemy and SQLite. The system is hosted on Render with a persistent disk.</desc>
+  <rect width="1100" height="490" rx="24" fill="#0b1422"/>
+  <text x="52" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f5f8ff">System architecture</text>
+  <text x="52" y="88" font-family="Arial, sans-serif" font-size="16" fill="#93a9c5">Server-rendered web application · authoritative business rules on the server</text>
+  <rect x="52" y="133" width="244" height="230" rx="18" fill="#16283e" stroke="#385571" stroke-width="2"/>
+  <text x="174" y="181" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#f5f8ff">Staff browsers</text>
+  <text x="174" y="218" text-anchor="middle" font-family="Arial" font-size="17" fill="#c1d2e7">Desktop / mobile</text>
+  <text x="174" y="261" text-anchor="middle" font-family="Arial" font-size="16" fill="#8eb8f0">Jinja HTML</text>
+  <text x="174" y="286" text-anchor="middle" font-family="Arial" font-size="16" fill="#8eb8f0">CSS · JavaScript</text>
+  <path d="M312 248 H380" stroke="#73b9dd" stroke-width="3" stroke-linecap="round"/>
+  <path d="M367 237 L382 248 L367 259" fill="none" stroke="#73b9dd" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="392" y="133" width="308" height="230" rx="18" fill="#193b53" stroke="#62a7bf" stroke-width="2"/>
+  <text x="546" y="181" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#f5f8ff">Flask application</text>
+  <text x="546" y="215" text-anchor="middle" font-family="Arial" font-size="16" fill="#c1d2e7">Routes · validation · permissions</text>
+  <rect x="424" y="238" width="244" height="86" rx="12" fill="#0f2639"/>
+  <text x="546" y="272" text-anchor="middle" font-family="Arial" font-size="17" font-weight="600" fill="#e2f3ff">Server-side business rules</text>
+  <text x="546" y="298" text-anchor="middle" font-family="Arial" font-size="15" fill="#a2c6de">Stock · requests · expiration</text>
+  <path d="M715 248 H777" stroke="#73b9dd" stroke-width="3" stroke-linecap="round"/>
+  <path d="M764 237 L779 248 L764 259" fill="none" stroke="#73b9dd" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="792" y="133" width="256" height="230" rx="18" fill="#16283e" stroke="#385571" stroke-width="2"/>
+  <text x="920" y="181" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#f5f8ff">Persistence</text>
+  <text x="920" y="219" text-anchor="middle" font-family="Arial" font-size="17" fill="#c1d2e7">SQLAlchemy · SQLite</text>
+  <text x="920" y="262" text-anchor="middle" font-family="Arial" font-size="16" fill="#8eb8f0">Inventory &amp; lots</text>
+  <text x="920" y="289" text-anchor="middle" font-family="Arial" font-size="16" fill="#8eb8f0">Requests &amp; audit records</text>
+  <rect x="52" y="405" width="996" height="48" rx="11" fill="#102238"/>
+  <text x="550" y="435" text-anchor="middle" font-family="Arial" font-size="17" fill="#b3c8de">Deployment: Render · single application instance · persistent SQLite disk</text>
+</svg>

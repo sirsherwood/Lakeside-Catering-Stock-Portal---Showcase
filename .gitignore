@@ -1,0 +1,18 @@
+# Public showcase: never commit runtime databases, credentials, or application code.
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+__pycache__/
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db

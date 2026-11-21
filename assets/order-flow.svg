@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 270" role="img" aria-labelledby="title desc">
+ <title id="title">Order request lifecycle</title>
+ <desc id="desc">A staff member submits a product request, a manager reviews it, and the request is either marked as ordered or denied with a reason. Status transitions are recorded in history.</desc>
+ <rect width="1080" height="270" rx="24" fill="#f4f7fb"/>
+ <text x="46" y="54" font-family="Arial" font-size="27" font-weight="700" fill="#182c42">Order request workflow</text>
+ <text x="46" y="83" font-family="Arial" font-size="16" fill="#51677a">Illustrative process diagram — no live workplace data</text>
+ <rect x="44" y="116" width="220" height="72" rx="15" fill="#e5edf7" stroke="#a6bcd3"/>
+ <text x="154" y="147" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#1c3a57">Submitted</text>
+ <text x="154" y="170" text-anchor="middle" font-family="Arial" font-size="14" fill="#49637c">Employee request</text>
+ <path d="M272 152 H344" stroke="#6c8ca9" stroke-width="3"/>
+ <path d="m333 143 11 9-11 9" fill="none" stroke="#6c8ca9" stroke-width="3"/>
+ <rect x="354" y="116" width="221" height="72" rx="15" fill="#fff2d8" stroke="#e0b364"/>
+ <text x="464" y="147" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#5d421c">Pending</text>
+ <text x="464" y="170" text-anchor="middle" font-family="Arial" font-size="14" fill="#7f6439">Manager review</text>
+ <path d="M582 151 H653" stroke="#6c8ca9" stroke-width="3"/>
+ <path d="m640 142 12 9-12 9" fill="none" stroke="#6c8ca9" stroke-width="3"/>
+ <rect x="663" y="101" width="369" height="47" rx="12" fill="#dcf3e7" stroke="#74b996"/>
+ <text x="847" y="130" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#235a42">Ordered</text>
+ <rect x="663" y="165" width="369" height="47" rx="12" fill="#fce7e7" stroke="#df9595"/>
+ <text x="847" y="193" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#7d3034">Denied · reason recorded</text>
+ <path d="M650 152 V188 H663" fill="none" stroke="#6c8ca9" stroke-width="3"/>
+ <text x="539" y="248" text-anchor="middle" font-family="Arial" font-size="15" fill="#526779">Status changes are attributed and retained in request history</text>
+</svg>

@@ -27,7 +27,7 @@ I helped turn those operational needs into a browser-based portal that gives sta
 
 The portal has been deployed for real workplace use. The application is also being maintained and revised, but **this showcase deliberately describes the capabilities evidenced in the supplied deployed-code snapshot, not unreleased functionality**.
 
-## Application Screenshots
+## Application screenshots
 
 ### Order Request Management
 
@@ -75,8 +75,6 @@ I work within the catering operation and have served as its lead storekeeper. Th
 
 This was **collaborative and extensively AI-assisted development**, not an entirely hand-written solo codebase. I used AI coding tools to accelerate implementation while shaping requirements, evaluating proposed solutions, making design decisions, arranging tests, inspecting behavior, and handling ongoing development and deployment work. Other contributors also participated. I do not claim exclusive authorship of every component or algorithm.
 
-I have also worked on a separate, locally tested inventory-data rebuild. That work is intentionally **not presented here as deployed functionality**. My ongoing technical goal is to deepen my understanding of the entire implementation and refactor code where that improves maintainability, without misrepresenting work I have not yet done.
-
 ## Evidence and limitations
 
 - **Real operational setting:** Built for a workplace where I also perform stockkeeping duties; some development work was performed as paid employment.
@@ -85,7 +83,7 @@ I have also worked on a separate, locally tested inventory-data rebuild. That wo
 - **Observed outcome:** The Orders workflow is the strongest reported area of workplace adoption.
 - **What is not claimed:** No independently measured time savings, reduction in inventory discrepancies, deployment-scale benchmark, or universal employee adoption.
 
-This showcase does not include a supervisor endorsement, employee information, internal operational records, or screenshots that might expose workplace data. Any future visual materials will use sanitized or synthetic records and will be added only when suitable for publication.
+Screenshots have been edited to obscure identifying details. This repository excludes application source code, credentials, employee information, and internal database records.
 
 ---
 
